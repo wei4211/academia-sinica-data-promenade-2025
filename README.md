@@ -1,48 +1,53 @@
 # 高齡族群長照使用之時間變化與影響因素分析
 
-**Analysis of Time Changes and Influencing Factors in Long-term Care Usage among the Elderly**
+![Field](https://img.shields.io/badge/Field-Data_Science-blue.svg)
+![Award](https://img.shields.io/badge/Award-Honorable_Mention-orange.svg)
+![Institution](https://img.shields.io/badge/Organizer-Academia_Sinica-red.svg)
+![Language](https://img.shields.io/badge/Language-Python-yellow.svg)
+
+本專案於 **中央研究院統計科學研究所「資料科學漫步 2025」資料科學敘事挑戰賽** 中榮獲 **優選獎（Honorable Mention）**。
 
 ---
 
-## 獲獎紀錄
+## 作者
 
-🏆 **資料科學漫步 2025 優選獎（Honorable Mention）**  
-中央研究院 統計科學研究所｜2025 年 11 月 29 日
-
-- 競賽：資料科學敘事挑戰賽（Data Science Storytelling Challenge）
-- 主題：Beyond Predictions
-- 單位：安居智造所（Smart Living Innovation Lab）
-- 作者：陳祥瑋（Hsiang-Wei Chen）
+陳祥瑋、陳紀宇、鄭博仁、詹鶴章、黃宇晨
 
 ---
 
 ## 研究簡介
 
-本研究以長照使用資料為基礎，分析高齡族群在長期照護服務使用上的時間趨勢變化，並探討影響其使用行為的關鍵因素。透過資料科學方法，結合統計分析與資料視覺化，呈現高齡人口在長照需求上的結構性改變，提供政策制訂者與照護機構具參考價值的洞察。
+台灣已邁入超高齡社會，長照服務需求與使用行為成為政策關注焦點。本研究以 108 至 112 年銀髮安居模擬資料為基礎，分析高齡族群長照使用率的時間趨勢，並透過邏輯斯迴歸模型找出影響使用機率的關鍵因素，包含年齡、身心障礙程度、家庭支持、居住條件與醫療可近性等，為長照政策的精準化提供實證依據。
 
 ---
 
-## 專案內容
+## 使用技術
+
+- **資料處理**：Python（Pandas、NumPy）
+- **資料視覺化**：Matplotlib、Seaborn
+
+---
+
+## 主要發現
+
+- 長照使用率於 110 年達高峰（約 18%），112 年下降至 12.9%，顯示使用率並非隨高齡化單向上升
+- **年齡越大、身心障礙程度越高**，使用長照服務的機率也越高
+- **家庭支持**（子女同縣市居住）與**醫療可近性**可降低對正式長照的依賴
+
+---
+
+## 專案檔案
 
 | 檔案 | 說明 |
 |------|------|
-| `1070_高齡族群長照使用之時間變化與影響因素分析.pdf` | 研究報告 |
+| `1070_高齡族群長照使用之時間變化與影響因素分析.pdf` | 完整研究報告 |
 | `1070_高齡族群長照使用之時間變化與影響因素分析海報.pdf` | 競賽海報 |
 | `資科漫步優選＿中文.png` | 優選獎狀（中文版） |
 | `資科漫步優選＿英文.jpg` | Honorable Mention Certificate（英文版） |
 
 ---
 
-## 競賽資訊
+## 授權
 
-- **競賽名稱**：資料科學漫步（Promenade of Data Science）2025
-- **主辦單位**：中央研究院 統計科學研究所（Institute of Statistical Science, Academia Sinica）
-- **競賽主題**：Beyond Predictions — 資料科學敘事挑戰賽
-- **頒獎日期**：中華民國 114 年 11 月 29 日（November 29, 2025）
-
----
-
-## 作者
-
-**陳祥瑋（Hsiang-Wei Chen）**  
-安居智造所（Smart Living Innovation Lab）
+Copyright (c) 2025 陳祥瑋、陳紀宇、鄭博仁、詹鶴章、黃宇晨  
+本專案採用 MIT License 授權。
