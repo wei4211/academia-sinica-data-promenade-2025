@@ -49,5 +49,5 @@
 
 ## 授權
 
-Copyright (c) 2025 陳祥瑋、陳紀宇、鄭博仁、詹鶴章、黃宇晨  
-本專案採用 MIT License 授權。
+Copyright (c) 2026 wei4211  
+本專案採用 [MIT License](LICENSE) 授權。
